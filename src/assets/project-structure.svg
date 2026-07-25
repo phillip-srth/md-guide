@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430" viewBox="0 0 980 430" role="img" aria-labelledby="title desc">
+  <title id="title">Recommended documentation project structure</title>
+  <desc id="desc">A tree layout showing SUMMARY.md, topic folders, assets, lint config, and CI workflow.</desc>
+  <rect width="980" height="430" rx="16" fill="#f8fafc"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#0f172a">
+    <text x="48" y="58" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">src/</text>
+    <line x1="60" y1="80" x2="60" y2="360" stroke="#94a3b8" stroke-width="2"/>
+    <text x="88" y="105">SUMMARY.md</text>
+    <text x="88" y="145">introduction.md</text>
+    <text x="88" y="185">01-Foundations/</text>
+    <text x="88" y="225">02-Advanced/</text>
+    <text x="88" y="265">03-Automation/</text>
+    <text x="88" y="305">04-Appendix/</text>
+    <text x="88" y="345">assets/</text>
+    <line x1="104" y1="357" x2="104" y2="390" stroke="#94a3b8" stroke-width="2"/>
+    <text x="132" y="385">*.svg</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="555" y="72" width="360" height="86" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="735" y="110" text-anchor="middle" font-size="18" font-weight="700" fill="#1e3a8a">Source of truth</text>
+    <text x="735" y="135" text-anchor="middle" font-size="14" fill="#1e40af">Topic folders, assets, and navigation</text>
+    <rect x="555" y="190" width="360" height="86" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+    <text x="735" y="228" text-anchor="middle" font-size="18" font-weight="700" fill="#78350f">Quality gates</text>
+    <text x="735" y="253" text-anchor="middle" font-size="14" fill="#92400e">lint, links, build, content review</text>
+    <rect x="555" y="308" width="360" height="86" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="735" y="346" text-anchor="middle" font-size="18" font-weight="700" fill="#14532d">Published site</text>
+    <text x="735" y="371" text-anchor="middle" font-size="14" fill="#166534">generated into public/</text>
+  </g>
+</svg>

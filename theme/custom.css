@@ -1,0 +1,52 @@
+:root {
+  --docs-accent: #427af3;
+  --docs-accent-2: #2fea80;
+  --docs-warn: #f94c4c;
+}
+
+.content main {
+  line-height: 1.65;
+}
+
+.content img {
+  max-width: 100%;
+  border: 1px solid var(--table-border-color);
+  border-radius: 8px;
+  background: var(--bg);
+}
+
+.content blockquote {
+  border-left: 0.25rem solid var(--docs-accent);
+  background: color-mix(in srgb, var(--docs-accent) 8%, transparent);
+}
+
+.content table {
+  display: table;
+  width: 100%;
+}
+
+.content th {
+  white-space: nowrap;
+}
+
+.content kbd {
+  border: 1px solid var(--table-border-color);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+  font-family: var(--mono-font);
+  font-size: 0.85em;
+}
+
+.content details {
+  display: block;
+  border: 1px solid var(--table-border-color);
+  border-radius: 8px;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.content summary .content details[open] summary {
+  cursor: pointer;
+  font-weight: 700;
+}
