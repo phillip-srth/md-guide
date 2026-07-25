@@ -1,0 +1,16 @@
+{
+  "name": "md-docs-as-code",
+  "version": "0.1.0",
+  "description": "A practical guide to Markdown documentation, diagrams, linting, automation, quality gates, and release-ready docs.",
+  "private": true,
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\" \"#public\" \"#node_modules\"",
+    "format": "prettier --write \"**/*.md\"",
+    "build": "mdbook build",
+    "serve": "mdbook serve --open"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.23.0",
+    "prettier": "^3.8.5"
+  }
+}

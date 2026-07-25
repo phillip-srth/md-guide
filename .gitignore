@@ -1,0 +1,21 @@
+# mdBook
+public/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# IDE and editor files
+.vscode/.history/
+
+# Environment variables
+*.env
+
+# Log files
+*.log
+
+# Node.js
+node_modules/

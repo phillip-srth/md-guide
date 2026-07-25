@@ -1,0 +1,28 @@
+[book]
+title = "Markdown Guide - Docs-as-Code"
+authors = ["Phillip Schaffenrath"]
+description = "A practical guide to Markdown documentation, diagrams, linting, automation, quality gates, and release-ready docs."
+language = "en-US"
+src = "src"
+
+[build]
+build-dir = "public"
+create-missing = false
+
+[output.html]
+default-theme = "coal"
+preferred-dark-theme = "coal"
+mathjax-support = true
+additional-css = ["theme/custom.css"]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+no-section-label = false
+git-repository-url = "https://github.com/phillip-srth/md-guide"
+
+[output.html.print]
+enable = true
+
+[preprocessor.mdbook-mermaid]
+command = "mdbook-mermaid"
+
+# PlantUML diagrams are committed as exported SVGs (see src/02-Advanced/plantuml.md),
+# so no PlantUML preprocessor is needed.

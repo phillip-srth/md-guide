@@ -1,0 +1,22 @@
+{
+  "files.exclude": {
+    "public/": true
+  },
+
+  "search.exclude": {
+    "public/": true,
+    "book.toml": true
+  },
+
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "cSpell.words": ["Automatable", "Consolas", "labelledby", "Segoe"]
+}

@@ -1,0 +1,15 @@
+{
+  "default": true,
+  "no-duplicate-heading": {
+    "siblings_only": true
+  },
+  "MD003": {
+    "style": "atx"
+  },
+  "ul-indent": false,
+  "no-trailing-spaces": false,
+  "no-multiple-blanks": false,
+  "line-length": false,
+  "no-trailing-punctuation": false,
+  "no-space-in-emphasis": false
+}
