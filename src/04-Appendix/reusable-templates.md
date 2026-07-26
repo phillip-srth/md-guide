@@ -1,4 +1,4 @@
-# Reusable Templates 🧩
+# Reusable Templates
 
 Copy these templates into real projects and adapt them to your team's workflow.
 

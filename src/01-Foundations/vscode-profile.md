@@ -1,4 +1,4 @@
-# VS Code Writing Profile 🧰
+# VS Code Writing Profile
 
 VS Code can become a strong Markdown editor with a dedicated profile. A separate profile keeps writing settings from
 interfering with normal coding settings.
@@ -42,10 +42,10 @@ Create `.vscode/settings.json`:
 
 | Action | Windows Shortcut | Why It Helps |
 | --- | --- | --- |
-| Open preview | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> | Check rendered output quickly. |
-| Open preview to side | <kbd>Ctrl</kbd> + <kbd>K</kbd>, then <kbd>V</kbd> | Write and preview side by side. |
-| Format document | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | Format tables and lists. |
-| Quick fix | <kbd>Ctrl</kbd> + <kbd>.</kbd> | Apply lint fixes when available. |
+| Open preview | `Ctrl` + `Shift` + `V` | Check rendered output quickly. |
+| Open preview to side | `Ctrl` + `K`, then `V` | Write and preview side by side. |
+| Format document | `Shift` + `Alt` + `F` | Format tables and lists. |
+| Quick fix | `Ctrl` + `.` | Apply lint fixes when available. |
 
 ## Preview Strategy
 
