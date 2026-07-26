@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.5.3
-    steps:
+    steps: 
       - uses: actions/checkout@v7
 
       - name: Setup Node.js
