@@ -3,7 +3,7 @@
   "no-duplicate-heading": {
     "siblings_only": true
   },
-  "MD003": {
+  "heading-style": {
     "style": "atx"
   },
   "ul-indent": false,
