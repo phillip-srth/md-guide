@@ -1,4 +1,4 @@
-# CI Automation ⚙️
+# CI Automation
 
 Automation keeps documentation honest. A pull request should not merge if the documentation site cannot build.
 
@@ -28,9 +28,9 @@ jobs:
   quality:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
 
