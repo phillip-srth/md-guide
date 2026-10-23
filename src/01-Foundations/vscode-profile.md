@@ -44,7 +44,7 @@ Create `.vscode/settings.json`:
 | --- | --- | --- |
 | Open preview | `Ctrl` + `Shift` + `V` | Check rendered output quickly. |
 | Open preview to side | `Ctrl` + `K`, then `V` | Write and preview side by side. |
-| Format document | `Shift` + `Alt` + `F` | Format tables and lists. |
+| Format document | `Shift` + `Alt` + `F` | Format tables and lists. | 
 | Quick fix | `Ctrl` + `.` | Apply lint fixes when available. |
 
 ## Preview Strategy
