@@ -1,4 +1,4 @@
-# Style and markdownlint 🧹
+# Style and markdownlint
 
 markdownlint catches style problems before review. It removes avoidable noise: inconsistent headings, missing blank
 lines, duplicate titles, bad list indentation, and unlabelled code fences.
